@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:paddingBottom="8dp"
+              android:paddingTop="8dp"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/section_name"
+        style="@style/section_name_style2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Footbal"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A very long headline , a little more , a little more"/>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J.K Adele"/>
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/date_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20th Feb"/>
+    </RelativeLayout>
+
+</LinearLayout>
